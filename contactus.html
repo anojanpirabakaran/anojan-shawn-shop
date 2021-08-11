@@ -38,15 +38,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contactus.html"
-                >Contact Us</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="contactus.html"
+                >Contact Us</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -63,8 +66,12 @@
                   <a class="dropdown-item" href="products.html">All Products</a>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                <li>
+                  <a class="dropdown-item" href="popular.html">Popular Items</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="new.html">New Arrivals</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -79,28 +86,61 @@
       </div>
     </nav>
     <!-- Product section-->
-    <div class="container">
-        <form id="contact" action="" method="post">
-          <h3>House of Kickz Contact-Form</h3>
-          <h4>Contact us for Selling and Reselling</h4>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-          <p class="copyright">Designed by Anojan Pirabakaran</p>
-        </form>
+    <div class="masthead" id="mastheadcontact">
+      <div class="container">
+        <div class="masthead-subheading">
+          Contact us for Selling and Reselling
+        </div>
+        <div class="masthead-heading text-uppercase">Contact</div>
       </div>
+    </div>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Contact-Form</h3>
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Type your message here...."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
     <!-- Footer-->
     <footer class="py-5 bg-dark">
       <div class="container">
