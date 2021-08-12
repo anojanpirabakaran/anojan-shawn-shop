@@ -31,6 +31,42 @@
   margin-bottom: 0;
 }
 
+#mastheadnew{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://cdn.wallpapersafari.com/49/67/uNOCd7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#mastheadpopular{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://cdn.wallpapersafari.com/49/67/uNOCd7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#mastheadshop{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://cdn.wallpapersafari.com/31/31/oPc0Hb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 #mastheadcontact {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
