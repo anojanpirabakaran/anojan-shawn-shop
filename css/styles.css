@@ -4610,11 +4610,14 @@ fieldset:disabled .btn {
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
   }
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #0a58ca;
+  background-color:rgba(114,162,233,255);
+  transition: 3s; 
 }
 .nav-link.disabled {
   color: #6c757d;
